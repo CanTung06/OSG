@@ -26,6 +26,7 @@
   + arrival_time_n là thời điểm đến của tiến trình n
   + burst_time_n là thời gian xử lý của tiến trình n
 - Ví dụ:
+  ```
   3
   0 5
   0 3
@@ -41,6 +42,7 @@
   + TAT (Turnaround Time): Thời gian hoàn thành
   + CT (Completion Time): Thời điểm hoàn thành
 - Ví dụ:
+  ```
   PID	AT	BT	WT	TAT	CT
   P1	0	  5	  0	  5	  5
   P2	0	  3	  5	  8	  8
@@ -82,6 +84,7 @@
   + arrival_time_n là thời điểm đến của tiến trình n
   + burst_time_n là thời gian xử lý của tiến trình n
 - Ví dụ:
+  ```
   4
   0 8
   1 4
@@ -98,6 +101,7 @@
   + TAT (Turnaround Time): Thời gian hoàn thành
   + CT (Completion Time): Thời điểm hoàn thành
 - Ví dụ:
+  ```
   PID	AT	BT	WT	TAT	CT
   P1	0	  8	  0	  8	  8
   P2	1	  4	  10	14	15
@@ -139,6 +143,7 @@
   + arrival_time_n là thời điểm đến của tiến trình n
   + burst_time_n là thời gian xử lý của tiến trình n
 - Ví dụ:
+  ```
   4
   0 8
   1 4
@@ -155,6 +160,7 @@
   + TAT (Turnaround Time): Thời gian hoàn thành
   + CT (Completion Time): Thời điểm hoàn thành
 - Ví dụ:
+  ```
   PID	AT	BT	WT	TAT	CT
   P1	0	  8	  7	  15	15
   P2	1	  4	  3	  7	  8
@@ -197,6 +203,7 @@
   + burst_time_n là thời gian xử lý của tiến trình n
   + priority là độ ưu tiên
 - Ví dụ:
+  ```
   4
   0 6 3
   0 2 1
@@ -214,6 +221,7 @@
   + TAT (Turnaround Time): Thời gian hoàn thành
   + CT (Completion Time): Thời điểm hoàn thành
 - Ví dụ:
+  ```
   PID	AT	BT	PR	WT	TAT	CT
   P1	0	  6	  3	  5	  11	11
   P2	0	  2	  1	  0	  2	  2
@@ -259,6 +267,7 @@
   + burst_time_n là thời gian xử lý của tiến trình n
   + quantum là số thời gian cấp CPU mỗi tiến trình
 - Ví dụ:
+  ```
   3
   0 5
   0 4
@@ -275,6 +284,7 @@
   + TAT (Turnaround Time): Thời gian hoàn thành
   + CT (Completion Time): Thời điểm hoàn thành
 - Ví dụ:
+  ```
   PID	AT	BT	WT	TAT	CT
   P1	0	  5	  6	  11	11
   P2	0	  4	  6	  10	10
