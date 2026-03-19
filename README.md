@@ -103,10 +103,10 @@
 - Ví dụ:
   ```
   PID	AT	BT	WT	TAT	CT
-  P1	0	  8	  0	  8	  8
-  P2	1	  4	  10	14	15
-  P3	2	  2	  7	  9	  11
-  P4	3	  1	  5	  6	  9
+  P1  0   8   0   8   8
+  P2  1   4   10  14  15
+  P3  2   2   7   9   11
+  P4  3   1   5   6   9
 ### 5. Cách chạy chương trình
 - Chuẩn bị file input.txt
 - Compile: g++ SJF.cpp -o SJF.exe
@@ -162,10 +162,10 @@
 - Ví dụ:
   ```
   PID	AT	BT	WT	TAT	CT
-  P1	0	  8	  7	  15	15
-  P2	1	  4	  3	  7	  8
-  P3	2	  2	  0	  2	  4
-  P4	3	  1	  1	  2	  5
+  P1  0   8   7   15  15
+  P2  1   4   3   7   8
+  P3  2   2   0   2   4
+  P4  3   1   1   2   5
 ### 5. Cách chạy chương trình
 - Chuẩn bị file input.txt
 - Compile: g++ SRTF.cpp -o SRTF.exe
@@ -223,10 +223,10 @@
 - Ví dụ:
   ```
   PID	AT	BT	PR	WT	TAT	CT
-  P1	0	  6	  3	  5	  11	11
-  P2	0	  2	  1	  0	  2	  2
-  P3	0	  8	  4	  11	19	19
-  P4	0	  3	  2	  2	  5	  5
+  P1  0   6   3   5   11  11
+  P2  0   2   1   0   2   2
+  P3  0   8   4   11  19  19
+  P4  0   3   2   2   5   5
 ### 5. Cách chạy chương trình
 - Chuẩn bị file input.txt
 - Compile: g++ PS.cpp -o PS.exe
@@ -286,9 +286,9 @@
 - Ví dụ:
   ```
   PID	AT	BT	WT	TAT	CT
-  P1	0	  5	  6	  11	11
-  P2	0	  4	  6	  10	10
-  P3	0	  2	  4	  6	  6
+  P1  0   5   6   11  11
+  P2  0   4   6   10  10
+  P3  0   2   4   6   6
 ### 5. Cách chạy chương trình
 - Chuẩn bị file input.txt
 - Compile: g++ RR.cpp -o RR.exe
