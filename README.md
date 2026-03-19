@@ -44,9 +44,9 @@
 - Ví dụ:
   ```
   PID	AT	BT	WT	TAT	CT
-  P1	0	  5	  0	  5	  5
-  P2	0	  3	  5	  8	  8
-  P3	0	  8	  8	  16	16
+  P1  0   5   0   5   5
+  P2  0   3   5   8   8
+  P3  0   8   8   16  16
 ### 5. Cách chạy chương trình
 - Chuẩn bị file input.txt
 - Compile: g++ FCFS.cpp -o FCFS.exe
